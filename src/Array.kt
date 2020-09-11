@@ -7,11 +7,16 @@ fun main(){
     var IntegerArray = arrayOf<Int>(1,2,3,4,5)
 
     //String Array
-    var StringArray = arrayOf<String>("name","class")
+    var StringArray = arrayOf<String>("name", "class")
 
+   /* println("IntergerArray")
+    for (i in IntegerArray) {
+        println(i)
+    }*/
 
+    "123abc"
 
-    //get value from index
+    /*//get value from index
     println(IntegerArray.get(2))
     println(IntegerArray[3])
 
@@ -25,6 +30,6 @@ fun main(){
     println("Find Hello: ${arr.contains("Hello")}")
 
     //Find Index
-    println("Index of Hello: ${arr.indexOf("Hello")}")
+    println("Index of Hello: ${arr.indexOf("Hello")}")*/
 
 }
