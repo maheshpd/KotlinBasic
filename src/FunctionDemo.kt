@@ -14,6 +14,7 @@ fun sayHello() {
 }
 
 fun sum(a:Int,b:Int): Int {
-    var result:Int
+
+    return a+b
 
 }
