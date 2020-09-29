@@ -1,29 +1,29 @@
 fun main() {
 
-    //Using Standard Library Function
-//    var num = 25
-//    println("Sqaure root of $num is: ${Math.sqrt(num.toDouble())}")
+    /*Using Standard Library Function
+    var num = 25
+    println("Sqaure root of $num is: ${Math.sqrt(num.toDouble())}")
 
-    //User- defined function
-//   var result =  sayHello(10,"Hetvi")
-//    println(result)
+    User- defined function
+   var result =  sayHello(10,"Hetvi")
+    println(result)
 
-//    var addition = sum(2,3) //5
-//    addition  = 2
-//
-//    println(addition)
-//
-////    val addtion = sum(2,3)
-//    println(sum(2,3))
-//    var principleAmount = sum(3,2)
-//    principleAmount +=2
-//
-//    println(principleAmount)
+    var addition = sum(2,3) //5
+    addition  = 2
 
-//    val addi = sum(2,3)
-//    println(addi)
-//    val names = GetName("Hetvi")
-//    println(names)
+    println(addition)
+
+//    val addtion = sum(2,3)
+    println(sum(2,3))
+    var principleAmount = sum(3,2)
+    principleAmount +=2
+
+    println(principleAmount)
+
+    val addi = sum(2,3)
+    println(addi)
+    val names = GetName("Hetvi")
+    println(names)
 
     println(10+20)
 
@@ -31,12 +31,15 @@ fun main() {
     println(sub(3, 1)) //2
     println(mul(2, 2)) //4
 
-//    /addtion
-// mul
-    //sub
-    //division
+    /addtion
+ mul
+    sub
+    division*/
 
-    sum(2,3)
+      val  result =  sum(2,3)
+        println(result)
+
+        sayHello(1,"Hello1")
 
 }
 
