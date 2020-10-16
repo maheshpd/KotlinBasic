@@ -2,10 +2,16 @@
 public class JavaWhileLoop {
 
     public static void main(String[] args) {
-        int i = 0;
-        while (i < 5) {
-            System.out.println(i);
-            i++;
-        }
+        //Object 1
+       Wheel mywheel = new Wheel();
+        mywheel.numberOfWeel(3);
+
+        //Object 2
+        Wheel mywheel1 = new Wheel();
+        mywheel1.numberOfWeel(4);
+
+        //Object3
+        Wheel mywheel2 = new Wheel();
+        mywheel2.numberOfWeel(6);
     }
 }
