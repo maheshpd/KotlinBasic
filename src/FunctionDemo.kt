@@ -60,7 +60,6 @@ fun GetName(name: String): String {
 
 fun addtion(n1: Int, n2: Int): Int {
     return n1 + n2
-
 }
 
 fun sub(n1: Int, n2: Int): Int {
@@ -69,4 +68,8 @@ fun sub(n1: Int, n2: Int): Int {
 
 fun mul(n1: Int, n2: Int): Int {
     return n1 * n2
+}
+
+fun processOrder() {
+
 }
