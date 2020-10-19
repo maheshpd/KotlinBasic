@@ -1,10 +1,5 @@
 
-public class JavaWhileLoop extends Modifier {
-
-    @Override
-    protected String proccessOrder() {
-        return super.proccessOrder();
-    }
+public class JavaWhileLoop{
 
     public static void main(String[] args) {
         //Object 1
@@ -20,8 +15,21 @@ public class JavaWhileLoop extends Modifier {
         mywheel2.numberOfWeel(6);*/
 
         //Modifier Object
-        Modifier mo2000 = new Modifier();
-        System.out.println(mo2000.proccessOrder());
+        /*Modifier m2 = new Modifier("Hetvi");
+        System.out.println(m2.proccessOrder());*/
+
+
+        Books mathbook = new Books("Computer",200,"Hetvi");
+
+        /*mathbook.booksname = "Computer";
+        mathbook.bookprice = 200;
+        mathbook.bookAuthor = "Hetvi";*/
+
+
+        System.out.println(mathbook.BookNamed());
+        System.out.println(mathbook.BookPrices());
+        System.out.println(mathbook.BookAuthor());
+
     }
 
 }

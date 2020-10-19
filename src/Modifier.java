@@ -1,11 +1,16 @@
 public class Modifier {
 
     //variable
-   protected String name = "Hetvi";
+    String name = "";
 
    //  Method/ function
-  protected String proccessOrder() {
+  public String proccessOrder() {
         return name;
+    }
+
+
+    Modifier(String names){
+        name = names;
     }
 
 }
