@@ -1,6 +1,10 @@
 package Encapsulation;
 
-public class Test {
+import java.awt.*;
+
+public class Test extends Student{
+
+    int number=100;
 
     public static void main(String args[]) {
         //creating object of the class
