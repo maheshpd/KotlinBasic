@@ -3,9 +3,9 @@ package Inheritance.SingleInheritance;
 //Single Inheritance
 
 //Parent class
-public class Animal {
+public abstract class Animal {
 
-    void eat() {
-        System.out.println("eating...");
-    }
+    abstract void eat(String s);
+
+
 }
